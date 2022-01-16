@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        text-align: center;
+        height: 100%;
+      }
+
+      .biru-muda {
+        background-color: lightskyblue;
+      }
+
+      .slider div {
+        height: 20px;
+        margin: 2px auto;
+        border-radius: 50%;
+        width: 20px;
+      }
+      .bundar1 {
+        background-color: red;
+      }
+      .bundar2 {
+        background-color: green;
+      }
+      .bundar3 {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">Tekan dan berubah</h1>
+    <button type="button" id="tUbahWarna">Tekan</button>
+
+    <br /><br />
+    <div class="slider">
+      <div class="bundar1"></div>
+      <input type="range" name="sMerah" min="0" max="255" value="255" />
+      <div class="bundar2"></div>
+      <input type="range" name="sHijau" min="0" max="255" value="255" />
+      <div class="bundar3"></div>
+      <input type="range" name="sBiru" min="0" max="255" value="255" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
